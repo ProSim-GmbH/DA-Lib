@@ -395,6 +395,45 @@ return location;]]></Body>
 					<ShowLabel>true</ShowLabel>
 					<Body><![CDATA[return distToLocation;]]></Body>
 				</Function>
+				<Function AccessType="public" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1731520051834</Id>
+					<Name><![CDATA[startDay]]></Name>
+					<X>-750</X><Y>290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[setVisible(true);]]></Body>
+				</Function>
+				<Function AccessType="public" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1731520067162</Id>
+					<Name><![CDATA[endDay]]></Name>
+					<X>-750</X><Y>310</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[setVisible(false);]]></Body>
+				</Function>
+				<Function AccessType="protected" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1731520202437</Id>
+					<Name><![CDATA[setVisible]]></Name>
+					<X>-250</X><Y>350</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Parameter>
+						<Name><![CDATA[visible]]></Name>
+						<Type><![CDATA[boolean]]></Type>
+					</Parameter>
+				</Function>
 			</Functions>
 			<AgentLinks>
 				<AgentLink>
@@ -738,10 +777,85 @@ return location;]]></Body>
 			</Presentation>
 
 				</Group>
+				<Group>
+					<Id>1731519114076</Id>
+					<Name><![CDATA[group5]]></Name>
+					<X>-270</X><Y>500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1731519114078</Id>
+					<Name><![CDATA[roundRectangle19]]></Name>
+					<X>-270</X><Y>-50</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>490</Width>
+					<Height>190</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1731519114080</Id>
+					<Name><![CDATA[text22]]></Name>
+					<X>-260</X><Y>-50</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Parameter]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>18</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
 			</Presentation>
 
 				</Level>
 			</Presentation>
+			<Areas>
+				<Area>
+					<Id>1731518534917</Id>
+					<Name><![CDATA[viewArea]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Title><![CDATA[]]></Title>
+					<Width>1000</Width>
+					<Height>600</Height>
+				</Area>
+			</Areas>
 
 		</ActiveObjectClass>
 		<!--   =========   Active Object Class   ========  -->
@@ -1339,287 +1453,6 @@ return location;]]></Body>
 
 			<Presentation>
 				<Group>
-					<Id>1731478675808</Id>
-					<Name><![CDATA[lorry]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-
-			<Presentation>
-				<Rectangle>
-					<Id>1731478675810</Id>
-					<Name><![CDATA[_ps86]]></Name>
-					<X>13</X><Y>-8</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>2</Width>
-					<Height>17</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-12566464</FillColor>
-					<FillMaterial>null</FillMaterial>
-				</Rectangle>
-				<Curve ControlPoints="true">
-					<Id>1731478675812</Id>
-					<Name><![CDATA[_ps87]]></Name>
-					<X>26</X><Y>-9</Y>
-					<Label><X>-20</X><Y>40</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<BeginArrowSize>1</BeginArrowSize>
-					<BeginArrowStyle>0</BeginArrowStyle>
-					<EndArrowSize>1</EndArrowSize>
-					<EndArrowStyle>0</EndArrowStyle>
-					<FillColor>-13284514</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<Points>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>2</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>3</Y><Z>0</Z></Point>
-					   <Point><X>-1</X><Y>1</Y><Z>0</Z></Point>
-					   <Point><X>-2</X><Y>-1</Y><Z>0</Z></Point>
-					   <Point><X>-1</X><Y>-2</Y><Z>0</Z></Point>
-					</Points>
-					<Closed>true</Closed>
-				</Curve>
-				<Curve ControlPoints="true">
-					<Id>1731478675814</Id>
-					<Name><![CDATA[_ps88]]></Name>
-					<X>26</X><Y>10</Y>
-					<Label><X>-20</X><Y>40</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<BeginArrowSize>1</BeginArrowSize>
-					<BeginArrowStyle>0</BeginArrowStyle>
-					<EndArrowSize>1</EndArrowSize>
-					<EndArrowStyle>0</EndArrowStyle>
-					<FillColor>-13284514</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<Points>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>-1</X><Y>2</Y><Z>0</Z></Point>
-					   <Point><X>-2</X><Y>1</Y><Z>0</Z></Point>
-					   <Point><X>-1</X><Y>-1</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>-3</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>-2</Y><Z>0</Z></Point>
-					</Points>
-					<Closed>true</Closed>
-				</Curve>
-				<Curve ControlPoints="true">
-					<Id>1731478675816</Id>
-					<Name><![CDATA[_ps89]]></Name>
-					<X>15</X><Y>-8</Y>
-					<Label><X>-20</X><Y>40</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-13284514</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<BeginArrowSize>1</BeginArrowSize>
-					<BeginArrowStyle>0</BeginArrowStyle>
-					<EndArrowSize>1</EndArrowSize>
-					<EndArrowStyle>0</EndArrowStyle>
-					<FillColor>-12156236</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<Points>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>10</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>10</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>10</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>12</X><Y>17</Y><Z>0</Z></Point>
-					   <Point><X>13</X><Y>16</Y><Z>0</Z></Point>
-					   <Point><X>15</X><Y>14</Y><Z>0</Z></Point>
-					   <Point><X>15</X><Y>3</Y><Z>0</Z></Point>
-					   <Point><X>13</X><Y>1</Y><Z>0</Z></Point>
-					   <Point><X>12</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>10</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>10</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>10</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					</Points>
-					<Closed>true</Closed>
-				</Curve>
-				<RoundedRectangle>
-					<Id>1731478675818</Id>
-					<Name><![CDATA[_ps90]]></Name>
-					<X>16</X><Y>-6</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>9</Width>
-					<Height>13</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-9066808</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>1</ArcRadius>
-				</RoundedRectangle>
-				<Rectangle>
-					<Id>1731478675820</Id>
-					<Name><![CDATA[_ps91]]></Name>
-					<X>-29</X><Y>-8</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>2</Width>
-					<Height>17</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-12566464</FillColor>
-					<FillMaterial>null</FillMaterial>
-				</Rectangle>
-				<Rectangle>
-					<Id>1731478675822</Id>
-					<Name><![CDATA[_ps92]]></Name>
-					<X>-27</X><Y>-9</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>41</Width>
-					<Height>19</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-4144960</FillColor>
-					<FillMaterial>null</FillMaterial>
-				</Rectangle>
-				<RoundedRectangle>
-					<Id>1731478675824</Id>
-					<Name><![CDATA[_ps93]]></Name>
-					<X>-26</X><Y>-7</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>39</Width>
-					<Height>15</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>1</ArcRadius>
-				</RoundedRectangle>
-				<Curve ControlPoints="true">
-					<Id>1731478675826</Id>
-					<Name><![CDATA[_ps94]]></Name>
-					<X>25</X><Y>8</Y>
-					<Label><X>-20</X><Y>40</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<BeginArrowSize>1</BeginArrowSize>
-					<BeginArrowStyle>0</BeginArrowStyle>
-					<EndArrowSize>1</EndArrowSize>
-					<EndArrowStyle>0</EndArrowStyle>
-					<FillColor>-13421226</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<Points>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>0</Y><Z>0</Z></Point>
-					   <Point><X>2</X><Y>-2</Y><Z>0</Z></Point>
-					   <Point><X>2</X><Y>-2</Y><Z>0</Z></Point>
-					   <Point><X>3</X><Y>-3</Y><Z>0</Z></Point>
-					   <Point><X>3</X><Y>-7</Y><Z>0</Z></Point>
-					   <Point><X>3</X><Y>-11</Y><Z>0</Z></Point>
-					   <Point><X>2</X><Y>-13</Y><Z>0</Z></Point>
-					   <Point><X>2</X><Y>-13</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>-15</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>-15</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>-15</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>-15</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>-11</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>-7</Y><Z>0</Z></Point>
-					   <Point><X>1</X><Y>-3</Y><Z>0</Z></Point>
-					   <Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-					</Points>
-					<Closed>true</Closed>
-				</Curve>
-			</Presentation>
-
-				</Group>
-				<Group>
 					<Id>1731478724002</Id>
 					<Name><![CDATA[group1]]></Name>
 					<X>-270</X><Y>100</Y>
@@ -1999,6 +1832,21 @@ return location;]]></Body>
 					</Properties>
 
 				</Variable>
+				<Variable Class="CollectionVariable">
+					<Id>1731518913730</Id>
+					<Name><![CDATA[mapLocation]]></Name>
+					<X>-1020</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" AccessType="protected" StaticVariable="false">
+						<CollectionClass><![CDATA[LinkedHashMap]]></CollectionClass>
+						<ElementClass><![CDATA[String]]></ElementClass>
+						<ValueElementClass><![CDATA[AbstractLocation]]></ValueElementClass>
+					</Properties>
+
+				</Variable>
 			</Variables>
 			<Functions>
 				<Function AccessType="public" StaticFunction="false">
@@ -2077,6 +1925,37 @@ return deliveryDate.equals( other.deliveryDate );]]></Body>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Body><![CDATA[return mapOrderPos;]]></Body>
+				</Function>
+				<Function AccessType="protected" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[ArrayList<OrderPosition>]]></ReturnType>
+					<Id>1731518913736</Id>
+					<Name><![CDATA[addLocation]]></Name>
+					<X>-750</X><Y>180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Parameter>
+						<Name><![CDATA[location]]></Name>
+						<Type><![CDATA[AbstractLocation]]></Type>
+					</Parameter>
+					<Body><![CDATA[if (!mapLocation.containsKey(location.id)) {
+	mapLocation.put(location.id, location);
+	location.startDay();
+}]]></Body>
+				</Function>
+				<Function AccessType="public" StaticFunction="false">
+					<ReturnModificator>RETURNS_VALUE</ReturnModificator>
+					<ReturnType><![CDATA[LinkedHashMap<String, AbstractLocation>]]></ReturnType>
+					<Id>1731518913738</Id>
+					<Name><![CDATA[getMapLocation]]></Name>
+					<X>-750</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[return mapLocation;]]></Body>
 				</Function>
 			</Functions>
 			<AgentLinks>
@@ -2758,34 +2637,6 @@ public class Segment extends AbstractObj {
 		</JavaClass>
 		<!--   =========   Java Class   ========  -->
 		<JavaClass>
-			<Id>1731330724488</Id>
-			<Name><![CDATA[Werk]]></Name>
-			<ExcludeFromBuild>true</ExcludeFromBuild>
-			<Text><![CDATA[
-public class Werk extends AbstractLocation {
-
-/*  Variable
-***********************************************************************************************************************/
-	
-	private Segment segment;
-	
-/*  Constructor
-***********************************************************************************************************************/
-	
-	public Werk(String id, String name, Address address, Segment segment) {
-		super(id, name, address);
-		this.segment = segment;
-	}
-	
-/*  Methode
-***********************************************************************************************************************/
-	
-	public Segment getSegment() { return segment; }
-	
-}]]></Text>
-		</JavaClass>
-		<!--   =========   Java Class   ========  -->
-		<JavaClass>
 			<Id>1731333006013</Id>
 			<Name><![CDATA[Lieferart]]></Name>
 			<Text><![CDATA[
@@ -3031,29 +2882,6 @@ public class Assure implements Serializable {
 		</JavaClass>
 		<!--   =========   Java Class   ========  -->
 		<JavaClass>
-			<Id>1731330072160</Id>
-			<Name><![CDATA[Client]]></Name>
-			<ExcludeFromBuild>true</ExcludeFromBuild>
-			<Text><![CDATA[
-public class Client extends AbstractLocation {
-
-/*  Variable
-***********************************************************************************************************************/
-	
-/*  Constructor
-***********************************************************************************************************************/
-
-	public Client(String id, String name, Address address) {
-		super(id, name, address);
-	}
-	
-/*  Methode
-***********************************************************************************************************************/
-
-}]]></Text>
-		</JavaClass>
-		<!--   =========   Java Class   ========  -->
-		<JavaClass>
 			<Id>1731482920231</Id>
 			<Name><![CDATA[OrderPosition]]></Name>
 			<Text><![CDATA[
@@ -3118,29 +2946,6 @@ public class OrderPosition implements Serializable {
 }
 	
 ]]></Text>
-		</JavaClass>
-		<!--   =========   Java Class   ========  -->
-		<JavaClass>
-			<Id>1731482932122</Id>
-			<Name><![CDATA[Artikel]]></Name>
-			<ExcludeFromBuild>true</ExcludeFromBuild>
-			<Text><![CDATA[
-public class Artikel extends AbstractObj {
-
-/*  Variable
-***********************************************************************************************************************/
-	
-/*  Constructor
-***********************************************************************************************************************/
-	
-	public Artikel(String id, String name) {
-		super(id, name);
-	}
-	
-/*  Methode
-***********************************************************************************************************************/
-
-}]]></Text>
 		</JavaClass>
 		<!--   =========   Java Class   ========  -->
 		<JavaClass>

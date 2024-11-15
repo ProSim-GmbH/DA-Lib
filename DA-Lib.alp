@@ -154,6 +154,7 @@
 		<ActiveObjectClass>
 			<Id>1731430832853</Id>
 			<Name><![CDATA[AbstractLocation]]></Name>
+			<ExcludeFromBuild>true</ExcludeFromBuild>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1731430832859</Id>
@@ -1183,6 +1184,7 @@ return location;]]></Body>
 		<ActiveObjectClass>
 			<Id>1731478675800</Id>
 			<Name><![CDATA[AbstractVehicle]]></Name>
+			<ExcludeFromBuild>true</ExcludeFromBuild>
 			<StartupCode><![CDATA[setup();]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
